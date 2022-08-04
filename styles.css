@@ -1,7 +1,6 @@
 body#index {
     background-image: url("indexbg_comp.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-color: #000000; /* In case picture doesn't load properly */
