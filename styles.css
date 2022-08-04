@@ -81,6 +81,7 @@ body#computerpage {
 	min-height: 100vh; /* Centers the bg in spite of the no-repeat attribute */
 	background-position: center;
 	background-color: black; /* Extra space on top and bottom will be filled with black */
+	position: relative;
 }
 
 #top {
