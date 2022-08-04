@@ -1,6 +1,7 @@
 body#index {
-    background-image: url("indexbg_comp.jpg");
-    background-position: center;
+    background-image: url("indexbg_comp.jpg") no-repeat 95% 50%;
+    min-height: 100%;
+    background-size: cover;
     background-color: #000000; /* In case picture doesn't load properly */
     display: flex;
     flex-direction: column;
