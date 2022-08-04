@@ -1,5 +1,5 @@
 body#index {
-    background: url("indexbg_comp.jpg") no-repeat 95% 50%;
+    background-image: url("indexbg_comp.jpg");
     min-height: 100%;
     background-size: cover;
     background-color: #000000; /* In case picture doesn't load properly */
