@@ -1,0 +1,181 @@
+body#index {
+    background-image: url("indexbg_comp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+    background-color: #000000; /* In case picture doesn't load properly */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2em; 
+}
+
+#topjeep {
+	margin-left: 250px;
+	height: 125px;
+}
+
+#jeep_img {
+	width: 80%;
+}
+
+#mspaint {
+	margin-right: 50px;
+}
+
+#paint_img {
+	display: block; /* Center the image */
+	margin-left: auto;
+	margin-right: auto;
+	width: 110%;
+}
+
+.longdiv {	
+	position: relative; /* Enables the readmore button to be positioned relative to this div */
+	height: 1000em; /* This is to give the user a long scrolling experience */
+	display: flex;
+	align-items: center;
+}
+
+#readmore {
+	position: absolute; /* Will take its cue from its ancestor div to be put at the bottom */
+	bottom: 0px;
+}
+
+#readmore:hover {
+	opacity: 0.8;
+}
+
+
+body#statuepage {
+	background-image: url("statuebg.jpg");
+	font-family: 'Courier New', monospace;
+	font-color: white;
+}
+
+.container {
+	border: 4px solid #B22222;
+	border-radius: 10px;
+	margin-top: 80px;
+	margin-bottom: 15px;
+	background-image: url("pink.jpg");
+	width: 60%
+}
+
+#thisman {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	margin-top: 50em;
+}
+
+#thisman:hover {
+	opacity: 0.5;
+}
+
+body#computerpage {
+	background-image: url("computerbg.jpg");
+	background-repeat: no-repeat;
+	background-size: 80em 75%; /* Width helps with background responsiveness on mobile */
+	background-position: fixed;
+	min-height: 100vh; /* Centers the bg in spite of the no-repeat attribute */
+	background-position: center;
+	background-color: black; /* Extra space on top and bottom will be filled with black */
+}
+
+#top {
+	float: right;
+	position: relative;
+    -webkit-animation: bike1 8s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: left; /* Chrome, Safari, Opera */
+    animation: bike1 8s infinite;
+    animation-direction: left;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bike1 {
+    0%   {right: 0px; top: 0px;}
+    100%  {right: 100%; top: 0px;}
+}
+
+@keyframes bike1 {
+    0%   {right: 0px; top: 0px;}
+    100%  {right: 100%; top: 0px;}
+}
+
+
+#bottom {
+	margin-left: 1200px;
+	position: fixed;
+    bottom: 0px;
+	-webkit-animation: bike2 4s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: left; /* Chrome, Safari, Opera */
+    animation: bike2 4s infinite;
+    animation-direction: left;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bike2 {
+    0%   {right: 0px; bottom: 0px;}
+    100%  {right: 100%; bottom: 0px;}
+}
+
+@keyframes bike2 {
+    0%   {right: 0px; bottom: 0px;}
+    100%  {right: 100%; bottom: 0px;}
+}
+
+
+#motherpage {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+}
+
+#eb {
+	width: 80%
+}
+
+#chee {
+	width: 30%;
+	margin-right: 30px;
+	margin-bottom: 100px;
+}
+
+body#page2 {
+	background-image: url("page2bg.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: right 45% bottom 45%;
+	background-color: DarkKhaki;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#download_img {
+	max-width: 60%;
+	height: auto;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+
+#notepad {
+	display: inline-block;
+	max-width: 70%;
+	height: auto;
+	margin-left: 65px;
+	margin-top: -60px;
+	margin-bottom: 70px;
+}
+
