@@ -2,14 +2,14 @@ body#index {
     background-image: url("indexbg_comp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+    background-position: center center;
+    background-attachment: fixed;
     background-color: #000000; /* In case picture doesn't load properly */
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 2em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em; 
 }
 
 #topjeep {
@@ -87,8 +87,8 @@ body#computerpage {
 }
 
 #top {
-	float: right;
-	position: relative;
+    float: right;
+    position: relative;
     -webkit-animation: bike1 8s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: left; /* Chrome, Safari, Opera */
     animation: bike1 8s infinite;
@@ -108,10 +108,10 @@ body#computerpage {
 
 
 #bottom {
-	margin-left: 1200px;
-	position: fixed;
+    margin-left: 1200px;
+    position: fixed;
     bottom: 0px;
-	-webkit-animation: bike2 4s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: bike2 4s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: left; /* Chrome, Safari, Opera */
     animation: bike2 4s infinite;
     animation-direction: left;
@@ -153,7 +153,7 @@ body#computerpage {
 body#page2 {
 	background-image: url("page2bg.jpg");
 	background-repeat: no-repeat;
-    background-size: cover;
+        background-size: cover;
 	background-position: right 45% bottom 45%;
 	background-color: DarkKhaki;
 	background-attachment: fixed;
