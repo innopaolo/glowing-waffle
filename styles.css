@@ -1,6 +1,6 @@
 body#index {
     background-image: url("indexbg_comp.jpg");
-    background-position: center center;
+    background-position: auto center;
     background-attachment: fixed;
     background-color: #000000; /* In case picture doesn't load properly */
     display: flex;
