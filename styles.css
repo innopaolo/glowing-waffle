@@ -108,7 +108,7 @@ body#computerpage {
 #bottom {
     margin-left: 1200px;
     position: absolute;
-    bottom: 0px;
+    bottom: -100px;
     -webkit-animation: bike2 4s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: left; /* Chrome, Safari, Opera */
     animation: bike2 4s infinite;
