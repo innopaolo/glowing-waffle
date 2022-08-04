@@ -40,6 +40,7 @@ body#index {
 #readmore {
 	position: absolute; /* Will take its cue from its ancestor div to be put at the bottom */
 	bottom: 0px;
+	margin-left: -20px;
 }
 
 #readmore:hover {
