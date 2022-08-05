@@ -207,7 +207,7 @@ body#page3 {
 	background-image: url("page3bg.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: right 20%;
+	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
 }
