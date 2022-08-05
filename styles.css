@@ -1,15 +1,17 @@
 body#index {
-    background: url("indexbg_comp.jpg");
-	background-attachment: fixed;
+        background: url("indexbg_comp.jpg");
+ 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-    background-color: #000000; /* In case picture doesn't load properly */
+    	background-color: #000000; /* In case picture doesn't load properly */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 2em; 
+	margin: 2em;
+	max-width: 100%
+	max-height: 100%
 }
 
 #topjeep {
