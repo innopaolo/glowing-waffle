@@ -157,8 +157,8 @@ body#computerpage {
 body#page2 {
 	background-image: url("page2bg.jpg");
 	background-repeat: no-repeat;
-    background-size: cover;
-	background-position: right 45% bottom 45%;
+        background-size: cover;
+	background-position: right 25%;
 	background-color: DarkKhaki; /* Color closest to the feeling of the background */
 	background-attachment: fixed;
 	display: flex;
