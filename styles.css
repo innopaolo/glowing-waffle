@@ -1,24 +1,24 @@
 body#index {
     background: url("indexbg_comp.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
     background-color: #000000; /* In case picture doesn't load properly */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2em; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2em; 
 }
 
 #topjeep {
-	margin-left: 250px;
+	margin-left: 150px;
 	height: 125px;
 }
 
 #jeep_img {
-	width: 80%;
+	width: 100%;
 }
 
 #mspaint {
@@ -29,7 +29,7 @@ body#index {
 	display: block; /* Center the image */
 	margin-left: auto;
 	margin-right: auto;
-	width: 110%;
+	width: 100%;
 }
 
 .longdiv {	
@@ -84,13 +84,13 @@ body#computerpage {
 	background-position: fixed;
 	min-height: 100vh; /* Centers the bg in spite of the no-repeat attribute */
 	background-position: center;
-	background-color: black; /* Extra space on top and bottom will be filled with black */
+	background-color: black; /* Extra space on top and bottom will be filled with black */	
 	position: relative;
 }
 
 #top {
-    float: right;
-    position: relative;
+	float: right;
+	position: relative;
     -webkit-animation: bike1 8s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: left; /* Chrome, Safari, Opera */
     animation: bike1 8s infinite;
@@ -98,6 +98,7 @@ body#computerpage {
 }
 
 /* Chrome, Safari, Opera */
+/* Animation to simulate riding a bicycle */
 @-webkit-keyframes bike1 {
     0%   {right: 0px; top: 0px;}
     100%  {right: 100%; top: 0px;}
@@ -110,10 +111,9 @@ body#computerpage {
 
 
 #bottom {
-    margin-left: 1200px;
-    position: absolute;
-    bottom: -100px;
-    -webkit-animation: bike2 4s infinite; /* Chrome, Safari, Opera */
+	margin-left: 1200px;
+	position: absolute;
+	-webkit-animation: bike2 4s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: left; /* Chrome, Safari, Opera */
     animation: bike2 4s infinite;
     animation-direction: left;
@@ -121,6 +121,7 @@ body#computerpage {
 
 
 /* Chrome, Safari, Opera */
+/* Animation to simulate riding a bike */
 @-webkit-keyframes bike2 {
     0%   {right: 0px; bottom: 0px;}
     100%  {right: 100%; bottom: 0px;}
@@ -142,10 +143,10 @@ body#computerpage {
 	font-family: 'Courier New', monospace;
 }
 
-#eb {
+#eb { 
 	padding-top: 100px;
 	width: 100%;
-	max-width: 100%:
+	max-width: 100%;
 	height: auto;
 }
 
@@ -158,9 +159,9 @@ body#computerpage {
 body#page2 {
 	background-image: url("page2bg.jpg");
 	background-repeat: no-repeat;
-        background-size: cover;
+    background-size: cover;
 	background-position: right 45% bottom 45%;
-	background-color: DarkKhaki;
+	background-color: DarkKhaki; /* Color closest to the feeling of the background */
 	background-attachment: fixed;
 	display: flex;
 	flex-direction: column;
@@ -168,14 +169,16 @@ body#page2 {
 	align-items: center;
 }
 
+/* These properties are almost the same as img-fluid class from bootstrap
+   but allows me to customize width */
 #download_img {
 	max-width: 60%;
 	height: auto;
-	margin-top: 100px;
+	margin-top: 40px;
 	margin-left: 30px;
 }
 
-#notepad {
+#hyperterminal {
 	display: inline-block;
 	max-width: 70%;
 	height: auto;
@@ -184,3 +187,124 @@ body#page2 {
 	margin-bottom: 70px;
 }
 
+#scroll_down {
+	position: fixed;
+	bottom: 0px;
+	margin-left: 500px;
+}
+
+#diskette_img {
+	margin-top: 30em;
+	margin-bottom: 5em;
+	margin-left: 10%;
+	width: 70%;
+	height: auto;
+}
+
+#diskette:hover {
+	opacity: 0.8;
+}
+
+body#page3 {
+	background-image: url("page3bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.img-fluid {
+	margin-top: 2em;
+}
+
+p {
+	margin-top: 40em;
+	font-family: 'Courier New', monospace;
+}
+
+#pills {
+	margin-top: -35em;
+}
+
+.pill:hover {
+	transform: scale(1.2);
+}
+
+.btn {
+	margin-top: 40em;
+}
+
+#ghost {
+	opacity: 0;
+	margin-bottom: 20em;
+	-webkit-animation: fadeInFromNone 10s ease-out;
+	-webkit-animation-delay: 8s;
+    animation: fadeInFromNone 10s ease-out;
+	animation-delay: 8s; /* Delay to give time to the visitor to read the alert first */
+}
+
+/* Chrome, Safari, Opera */
+/* Animation to fade in from 0 opacity */
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+/* Styles for website counter container */
+.website-counter {
+  opacity: 0; /* Hidden from visitors, only for dev purposes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Styles for reset button */
+#reset {
+  opacity: 0; /* Hidden from visitors, only for dev purposes */
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+}
