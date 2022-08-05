@@ -89,10 +89,10 @@ body#computerpage {
 #top {
 	float: right;
 	position: relative;
-    -webkit-animation: bike1 8s infinite; /* Chrome, Safari, Opera */
-    -webkit-animation-direction: left; /* Chrome, Safari, Opera */
-    animation: bike1 8s infinite;
-    animation-direction: left;
+    	-webkit-animation: bike1 8s infinite; /* Chrome, Safari, Opera */
+    	-webkit-animation-direction: left; /* Chrome, Safari, Opera */
+    	animation: bike1 8s infinite;
+    	animation-direction: left;
 }
 
 /* Chrome, Safari, Opera */
@@ -210,6 +210,17 @@ body#page3 {
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  body#page3 {
+    	background-image: url("page3bgmobile.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+  }
 }
 
 .img-fluid {
