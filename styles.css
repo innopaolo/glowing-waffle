@@ -109,9 +109,9 @@ body#computerpage {
 
 
 #bottom {
-	margin-left: 1200px;
-	position: absolute;
-	-webkit-animation: bike2 4s infinite; /* Chrome, Safari, Opera */
+    margin-left: 1200px;
+    position: absolute;
+    -webkit-animation: bike2 4s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: left; /* Chrome, Safari, Opera */
     animation: bike2 4s infinite;
     animation-direction: left;
@@ -212,6 +212,12 @@ body#page3 {
 	position: relative;
 }
 
+@media (max-width: 480px) {
+    body#page3 {
+        background: url("page3bgmobile.jpg") no-repeat center center fixed; 
+        background-size: cover;
+}
+
 .img-fluid {
 	margin-top: 2em;
 }
@@ -238,7 +244,7 @@ p {
 	margin-bottom: 20em;
 	-webkit-animation: fadeInFromNone 10s ease-out;
 	-webkit-animation-delay: 8s;
-    animation: fadeInFromNone 10s ease-out;
+    	animation: fadeInFromNone 10s ease-out;
 	animation-delay: 8s; /* Delay to give time to the visitor to read the alert first */
 }
 
