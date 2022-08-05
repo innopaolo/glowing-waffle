@@ -1,14 +1,8 @@
-html {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 
 body#index {
         background: url("indexbg_comp.jpg");
  	background-attachment: fixed;
-	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
     	background-color: #000000; /* In case picture doesn't load properly */
