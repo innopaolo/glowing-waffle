@@ -1,15 +1,13 @@
 body#index {
-    background: url("indexbg_comp.jpg");
-	background-attachment: fixed;
-	background-size: cover;
+        background: url("indexbg_comp.jpg");
+ 	background-attachment: fixed;
 	background-position: center center;
-	background-repeat: no-repeat;
-    background-color: #000000; /* In case picture doesn't load properly */
+    	background-color: #000000; /* In case picture doesn't load properly */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 2em; 
+	margin: 2em;
 }
 
 #topjeep {
@@ -159,8 +157,8 @@ body#computerpage {
 body#page2 {
 	background-image: url("page2bg.jpg");
 	background-repeat: no-repeat;
-    background-size: cover;
-	background-position: right 45% bottom 45%;
+        background-size: cover;
+	background-position: right 25%;
 	background-color: DarkKhaki; /* Color closest to the feeling of the background */
 	background-attachment: fixed;
 	display: flex;
