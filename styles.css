@@ -8,7 +8,6 @@ body#index {
         background: url("indexbg_comp.jpg");
  	background-attachment: fixed;
 	background-position: center center;
-	background-repeat: no-repeat;
     	background-color: #000000; /* In case picture doesn't load properly */
 	display: flex;
 	flex-direction: column;
